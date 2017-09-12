@@ -1,0 +1,10 @@
+/*Here are  fonts*/
+
+@font-face{
+	font-family:"asparagus";
+	src:url("fonts\Asparagus Sprouts.tff");
+}
+@font-face{
+	font-family:"zipa";
+	src:url(\fonts\KBZipaDeeDooDah.tff);
+}

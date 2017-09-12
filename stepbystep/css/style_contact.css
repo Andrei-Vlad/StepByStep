@@ -1,0 +1,58 @@
+body{
+
+}
+nav ul li:nth-child(5){
+	background-color: aquamarine;
+}
+content{
+	position: absolute;
+	margin-left: 175px;
+	height: auto;
+	width: auto;
+	padding: 50px;
+	z-index:-1;
+}
+.paralaxa input, textarea{
+	background: rgba(127,255,212,.3);
+	width: 600px;
+	height: 20px;
+}
+.paralaxa button{
+	background: rgba(127,255,212,.9);
+	width: 100px;
+	height: 50px;
+	border-radius: 10%;
+	border-color: grey;
+}
+textarea{
+	width: 598px;
+	height: 60px;
+}
+.formulare, .contact{
+		background-color: aquamarine;
+		position: absolute;
+		border-radius: 40%;
+		border: 3px solid grey;
+		height: 80px;
+		width: 180px;
+			text-align: center;
+			vertical-align: middle;
+			line-height: 80px;
+		cursor: pointer;
+		margin-left: 50px;
+		display: inline;
+}
+.contact{
+	 margin-left: 300px;
+}
+
+.formulare:hover, .contact:hover{
+	cursor: pointer;
+	text-shadow: 2px 2px 4px white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.paralaxa, .links{
+	margin-top: 150px;
+	display: none;
+}

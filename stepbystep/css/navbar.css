@@ -1,0 +1,101 @@
+/*---Navigation bar---*/
+
+body{
+    margin:0;
+    font-family: cursive;
+    background-image: url(/pics/backgrounds/starte.jpg);
+  	background-size:100% 100%;
+  	background-attachment: fixed;
+    overflow-y: scroll;
+
+}
+
+nav{
+    top:5px;
+    bottom: 5px;
+    width: 200px;
+    height: 100%;
+    margin: 0;
+    position:fixed;
+      border:1px solid grey;
+      border-top-right-radius: 2em;
+      border-bottom-right-radius: 2em;
+      box-shadow: 4px 5px 8px 0px aquamarine;
+
+}
+
+.background img{
+	box-sizing: border-box;
+	top:5px;
+	bottom: 5px;
+	width: 200px;
+	height: 100%;
+	margin: 0;
+	position:fixed;
+		border-top-right-radius: 2em;
+		border-bottom-right-radius: 2em;
+		z-index: -4;
+}
+
+h1{
+    margin:0;
+    padding: 8px 16px;
+    font-weight: 40px;
+    line-height: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ nav .navPics{
+    height: 70%;
+    position: absolute;
+}
+.navPics>*{
+    padding: 5px;
+    transform-origin: 50%;
+
+}
+ .one{
+    margin-top:10px;
+}
+
+ .two{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.three{
+    margin-top: 130%;
+    l
+}
+
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: aquamarine;
+    color: black;
+    transition: linear all 0.2s;
+    margin-left:10px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: orange;
+    position: absolute;
+    bottom:0;
+    width:100%;
+    z-index: -1;
+    text-align: center
+}

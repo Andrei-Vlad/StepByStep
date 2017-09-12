@@ -1,0 +1,53 @@
+
+nav ul li:nth-child(4){
+	background-color: aquamarine;
+}
+
+content{
+	position:absolute;
+	margin-left: 175px;
+	height: auto;
+	width: auto;
+	padding: 50px;
+}
+
+.Tarife, .Tematica{
+	margin-top: 8%;
+	padding: 3%;
+	display:none;
+	background: rgba(240, 255, 255, 0.7);
+	border-radius: 1%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-shadow: 2px 2px 6px grey;
+}
+
+.context{
+	background: rgba(240, 255, 255, 0.7);
+	border-radius: 1%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 3%;
+}
+
+.btn{
+	background-color: aquamarine;
+	position: absolute;
+	border-radius: 40%;
+	border: 3px solid grey;
+	margin: 10px 0 0 50px;
+	height: 80px;
+	width: 80px;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 80px;
+	cursor: pointer;
+	margin-left: 50px;
+	display: inline;
+}
+#tematica{
+	 margin-left: 150px;
+}
+
+.btn:hover{
+	text-shadow: 2px 2px 4px white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

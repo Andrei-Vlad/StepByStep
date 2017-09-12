@@ -1,0 +1,43 @@
+
+nav ul li:nth-child(1){
+	background-color: aquamarine;
+}
+content{
+	position: absolute;
+	margin-left: 15%;
+	height: auto;
+	width: 80%;
+	padding: 10px 50px 0px 50px;
+	z-index:-1;
+	text-align: center;
+}
+.slide{
+	color: white;
+ 	margin-top:50px;
+	cursor: pointer;
+	height:600px;
+	width: auto;
+	border:3px solid grey;
+	padding: 25px 0px 25px 0px ;
+	user-select: none;
+	background: rgba(110,0,0,.4);
+	border-radius: 5%;
+	text-shadow: 2px 2px 6px black;
+}
+.imgDimensions{
+	height: 500px;
+	width: 600px;
+
+}
+.slide  p{
+	font-size: 200%;
+	vertical-align: middle;
+	position: center;
+}
+
+.slide:not(:first-child){
+	display:none;
+}
+.motion2{
+	display: none;
+}
